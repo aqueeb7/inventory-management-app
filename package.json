@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "SET DEBUG=inventory-management-app:* & node ./bin/www"
+    "start": "SET DEBUG=inventory-management-app:* & nodemon ./bin/www"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
@@ -14,6 +14,8 @@
     "jade": "^0.31.2",
     "knex": "^3.1.0",
     "morgan": "~1.9.1",
-    "pg": "^8.14.0"
+    "nodemon": "^3.1.9",
+    "pg": "^8.14.0",
+    "winston": "^3.17.0"
   }
 }
