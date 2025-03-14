@@ -7,8 +7,11 @@ module.exports = {
 
   development: {
     client: 'postgresql',
-    connection: 'postgres://postgres:admin@localhost/inventory-management'
-    
+    connection: {
+      database: 'inventory-management',
+      user: 'postgres',
+      password: 'admin'
+    }
   },
 
   staging: {

@@ -4,8 +4,6 @@
  * Module dependencies.
  */
 
-import { error } from 'console';
-
 var app = require('../app');
 var http = require('http');
 const logger = require('../src/helpers/logger')
